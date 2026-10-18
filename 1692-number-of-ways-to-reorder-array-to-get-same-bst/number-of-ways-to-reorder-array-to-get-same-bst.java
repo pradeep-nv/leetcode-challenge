@@ -19,7 +19,7 @@ class Solution {
     }
     private long slove(List<Integer>nums){
         int n=nums.size();
-        if(n<=1){
+        if(n<=2){
             return 1;
         }
         int root = nums.get(0);
